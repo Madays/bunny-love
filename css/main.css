@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Baloo Paaji', cursive; 
+    background-color: #ECF7FB;
+}
+/*----------header*/
+header .navbar{
+    background: #037F99;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+}
+.navbar-default .navbar-brand span,section.the-tale article h4{
+    color: #F67673;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+}
+.fa{
+    color: #fff;
+}
+/*-------END---header*/
+/*----------section.banner*/
+section.banner video{
+    margin: 0;
+    padding: 0;
+}
+/*-------END---section.banner*/
+/*----------section.the-tale*/
+section.the-tale article{
+    background: #037F99;
+} 
+section.the-tale article p{
+    color: #fff;
+    padding: 0 10px;
+}
+/*-------END---section.the-tale*/
+/*----------section.more-bunny*/
+section.more-bunny {
+    background: #037F99;    
+}
+section.more-bunny article{
+        background-color: #ECF7FB;
+}
+section.more-bunny article h2{
+    color: #F67673;
+}
+section.more-bunny article p,section.more-bunny article date{
+    padding: 10px;
+    margin: 0;
+}
+section.more-bunny iframe{
+    width: 100%; 
+    display: block;
+} 
+section.more-bunny input{
+    border: solid 9px #ECF7FB;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.conejo-echado{
+    margin-right: 0;
+    width: 100%;
+}
+.list-inline>li{
+    margin: 0 20px;
+}
+.box-icon-contact{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;   
+    line-height: 50px;
+}
+/*-------END---section.more-bunny*/
+/*----------section.imagen-conejo*/
+section.imagen-conejo img{
+    width: 80px;
+    height: 80px;
+}
+section.imagen-conejo ul{
+    padding: 0px;
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+}
+section.imagen-conejo li{
+    margin: 0 30px;
+}
+/*-------END---section.imagen-conejo*/
+/*-------END---section.imagen-conejo*/
+footer{
+    background: #037F99;
+    border-top: solid 2px #F67673;
+    padding: 30px 0;
+    color: #fff;
+}
+/*-------END---section.imagen-conejo*/
