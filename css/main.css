@@ -145,7 +145,12 @@ footer{
     color: #fff;
 }
 /*-------END---section.imagen-conejo*/
-
+/*------------CELULARES-----*/
+@media screen and (max-width:767px){
+.contenido-text-banner{
+    margin: 15px;
+}     
+}
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
 .contenido-text-banner{
@@ -155,7 +160,7 @@ footer{
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
 .contenido-text-banner{
-    margin-top: 164px;
+    margin: 112px;
 }     
    
 }
