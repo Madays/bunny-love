@@ -68,6 +68,9 @@ section.banner video{
     right: 0;
     bottom: 0;
 }
+.contenido-text-banner h2{
+    color: #F67673;        
+}
 /*-------END---section.banner*/
 /*----------section.the-tale*/
 section.the-tale{
@@ -164,7 +167,9 @@ footer{
 .contenido-text-banner{
     margin: 112px;
 }     
-   
+.contenido-text-banner h2{
+        font-size: 80px;        
+    }   
 }
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width:1200px){
