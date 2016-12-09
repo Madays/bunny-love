@@ -1,0 +1,21 @@
+/*------------CELULARES-----*/
+/*@media screen and (max-width:767px){
+
+}
+/*------------TABLET-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+.contenido-text-banner{
+    margin: 57px;
+}   
+}
+/*------------DESKTOP-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+.contenido-text-banner{
+    margin: 164px;
+}     
+   
+}
+/*------------DESKTOP LARGE-----*/
+@media screen and (min-width:1200px){
+
+}

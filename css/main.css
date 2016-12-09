@@ -8,8 +8,14 @@ body{
     background-color: #ECF7FB;
 }
 /*----------header*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    position: absolute;
+    z-index: 250;
+    right: 13px;
+}
 header .navbar{
     background: #037F99;
+    margin-bottom: 0;
 }
 .navbar-default .navbar-brand{
     color: #fff;
@@ -20,18 +26,56 @@ header .navbar{
 .navbar-default .navbar-nav>li>a{
     color: #fff;
     font-family: 'Prompt', sans-serif;
+    background: rgba(3, 127, 153,.6);
 }
-.fa{
+header .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:active{
+    background: rgba(255,255,255,.6);
+}
+header .fa{
     color: #fff;
 }
 /*-------END---header*/
 /*----------section.banner*/
-section.banner video{
+section.banner{
+    position: relative;
+    display: table;
+}
+section.banner video{ 
     margin: 0;
     padding: 0;
+    width: 100%;
+    display: block;
+}
+.text-banner{
+    position: absolute;
+    background: rgba(3, 127, 153,.6);
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    display: table-cell;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 100px;
+
+}
+.contenido-text-banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    margin: 57px;
 }
 /*-------END---section.banner*/
 /*----------section.the-tale*/
+section.the-tale{
+    border: solid 10px #fff;
+    background: #fff;
+}
 section.the-tale article{
     background: #037F99;
 } 
@@ -90,7 +134,7 @@ section.imagen-conejo ul{
     list-style: none;
 }
 section.imagen-conejo li{
-    margin: 0 30px;
+    margin: 0 26px;
 }
 /*-------END---section.imagen-conejo*/
 /*-------END---section.imagen-conejo*/
@@ -101,3 +145,21 @@ footer{
     color: #fff;
 }
 /*-------END---section.imagen-conejo*/
+
+/*------------TABLET-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+.contenido-text-banner{
+    margin: 57px;
+}   
+}
+/*------------DESKTOP-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+.contenido-text-banner{
+    margin-top: 164px;
+}     
+   
+}
+/*------------DESKTOP LARGE-----*/
+@media screen and (min-width:1200px){
+
+}
